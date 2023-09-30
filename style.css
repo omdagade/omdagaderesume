@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 50, 207);
+    height: 8vh;
+    width: 98%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 2vh auto;
+
+}
+
+#res{
+    font-size:xx-large;
+    color: white;
+}
+
+#maindiv{
+    display: flex;
+}
+
+img{
+    
+    height: 35vh;
+    width: 20vw;
+    border-radius: 50%;
+    padding: 1vh 3vw;
+    
+    
+
+}
+
+#maindiv1{
+    margin: 0 1vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(50, 50, 207);
+    width: 30%;
+
+}
+
+#osd{
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+#email,#number,#location{
+    font-size: large;
+    color: white;
+    text-align: center;
+}
+
+#edu{
+    margin:2vh auto;
+    width: 25vw;
+    background-color: white;
+    color:rgb(50, 50, 207) ;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+
+#deg{
+    font-size: large;
+    color: white;
+    padding: 0 2vw;
+    font-weight: bolder;
+}
+
+#degg{
+    font-size: large;
+    color: white;
+    padding: 0 2vw;
+}
+
+#deg1{
+    color: white;
+    margin: 1vh 3vw;
+    font-weight: bolder;
+}
+
+#maindiv2{
+    margin: 0 1vw;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+    width: 70%;
+
+}
+
+#edu3{
+    margin:2vh 1vw;
+    width: 65vw;
+    background-color: rgb(210, 214, 255);
+    color:rgb(50, 50, 207) ;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+#deg2{
+    font-size: large;
+    color: black;
+    padding: 0 2vw;
+    font-weight: bolder;
+    margin: 2vh 0;
+}
+
+#degg2{
+    font-size: large;
+    color: black;
+    padding: 1vh 4vw;
+}
+
+#om{
+    color: black;
+    margin: 1vh 3vw;
+    font-weight: bolder;
+}
+
+main{
+    margin: 2vh 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#deg2:hover{
+    color: blue;
+}
+
+img:hover{
+    transform: scale(.9);
+}
+
+#btn{
+    margin: 2vh 50vw;
+    height: 6vh;
+    width: 10vw;
+    color: white;
+    background-color: red;
+    font-size: larger;
+
+}
+
+#btn:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
